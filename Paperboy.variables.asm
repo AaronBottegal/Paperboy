@@ -129,7 +129,7 @@ FLAG_MULTIPLAYER_GAME:                        .rs 1 ; 0x00B9
 
 
           .rsset 0x00BC
-GAME_VAR_UNK:                                 .rs 1 ; 0x00BC
+GAME_VAR_FORWARD_CONTROL_HMM:                 .rs 1 ; 0x00BC
 SCRIPT_X_SCROLL:                              .rs 1 ; 0x00BD
 SCRIPT_Y_SCROLL:                              .rs 1 ; 0x00BE
 SCRIPT_PPU_CTRL:                              .rs 1 ; 0x00BF
@@ -153,17 +153,21 @@ GAME_DAY_OF_THE_WEEK_OTHER_PLAYER:            .rs 1 ; 0x00D0
 PLAYER_LIVES_OTHER_PLAYER:                    .rs 1 ; 0x00D1
 OBJ_UNK_WORD:                                 .rs 2 ; 0x00D2 to 0x00D3
 PLAYER_SCORE_CURRENT:                         .rs 5 ; 0x00D4 to 0x00D8
+SND_D9_TODO:                                  .rs 1 ; 0x00D9
+SOUND_DA_SQ1_CTRL_GLOBAL_COMBINE_VAL:         .rs 1 ; 0x00DA
+SOUND_TRIPLET_IDK:                            .rs 3 ; 0x00DB to 0x00DD
 
 
-          .rsset 0x00E0
+          .rsset 0x00DF
+SND_DF_TODO:                                  .rs 1 ; 0x00DF
 SOUND_STREAM_TODO:                            .rs 2 ; 0x00E0 to 0x00E1
-
-
-          .rsset 0x00E8
-SOUND_ARG_TODO:                               .rs 1 ; 0x00E8
-SND_PROCESS_A_OBJ:                            .rs 1 ; 0x00E9
-SND_PROCESS_B_OBJ:                            .rs 1 ; 0x00EA
-SND_PROCESS_C_OBJ:                            .rs 1 ; 0x00EB
+SOUND_FILE_STREAM_BASED:                      .rs 2 ; 0x00E2 to 0x00E3
+SOUND_FIRE_B:                                 .rs 2 ; 0x00E4 to 0x00E5
+EXTRA_FILE_POINTER_RAM:                       .rs 2 ; 0x00E6 to 0x00E7
+SOUND_ARG_EXTRA_FILE:                         .rs 1 ; 0x00E8
+SND_PROCESS_A_OBJ_ID:                         .rs 1 ; 0x00E9
+SND_PROCESS_B_OBJ_ID:                         .rs 1 ; 0x00EA
+SND_PROCESS_C_OBJ_ID:                         .rs 1 ; 0x00EB
 
 
           .rsset 0x0200
@@ -269,6 +273,14 @@ INDEX_UNK_A:                                  .rs 1 ; 0x076C
 INDEX_UNK_B:                                  .rs 1 ; 0x076D
 PLAYER_ARR_UNK_OTHER_PLAYER:                  .rs 5 ; 0x076E to 0x0772
 SCORES_INITIALS_ARRAY:                        .rs 1 ; 0x0773
+
+
+          .rsset 0x077B
+SCORE_INITIALS:                               .rs 1 ; 0x077B
+
+
+          .rsset 0x07C3
+TOP_SCORE_DISLAY_PACKET_CREATION_AREA:        .rs 5 ; 0x07C3 to 0x07C7
 
 
           .rsset 0x07D4

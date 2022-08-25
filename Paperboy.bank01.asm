@@ -2165,7 +2165,7 @@ FILE_UNK_H: ; C:4738, 0x004738
     .db 00
     .db 00
     .db 00
-DATA_UNK: ; C:485F, 0x00485F
+SPRITE_DATA_FILE_R: ; C:485F, 0x00485F
     .db 02
     .db 04
     .db 03
@@ -2189,7 +2189,7 @@ SPRITE_PTR_UNK: ; C:486A, 0x00486A
     .db 6C
     .db 6D
     .db 6E
-DATA_UNK: ; C:4875, 0x004875
+SPRITE_DATA_FILE_S: ; C:4875, 0x004875
     .db 02
     .db 04
     .db 02
@@ -2213,7 +2213,7 @@ DATA_UNK: ; C:4880, 0x004880
     .db 7B
     .db 7C
     .db 7D
-DATA_UNK: ; C:488B, 0x00488B
+SPRITE_DATA_FILE_T: ; C:488B, 0x00488B
     .db 02
     .db 03
     .db 01
@@ -2233,7 +2233,7 @@ FILE_UNK: ; C:4894, 0x004894
     .db 87
     .db 88
     .db 89
-SPRITES_UNK: ; C:489D, 0x00489D
+SPRITE_DATA_FILE_C: ; C:489D, 0x00489D
     .db 02
     .db 02
     .db 00
@@ -2241,7 +2241,7 @@ SPRITES_UNK: ; C:489D, 0x00489D
     .db 8B
     .db 8C
     .db 8B
-SPRITES_UNK: ; C:48A4, 0x0048A4
+SPRITE_DATA_FILE_H: ; C:48A4, 0x0048A4
     .db 04
     .db 03
     .db 02
@@ -10411,6 +10411,7 @@ SOUND_DMC_UNK: ; C:6421, 0x006421
     .db E0
     .db 80
     .db 07
+ROM_DATA_0xFD: ; C:68A5, 0x0068A5
     .db FD
     .db EB
     .db 82
